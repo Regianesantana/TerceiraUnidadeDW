@@ -1,0 +1,25 @@
+  <input type="radio" id="pagamento" name="Pag" value="boleto">
+  <label for="pagamento">Boleto</label><br>
+  
+  <input type="radio" id="pagamento" name="Pag" value="cartao">
+  <label for="pagamento">Cartão </label><br>
+  
+  <input type="radio" id="pagamento" name="Pag" value="Pix">
+  <label for="pagamento">Pix</label><br>
+  
+  <input type="submit" value="Enviar" onclick="mensagem()">
+</form> 
+
+<script>
+    var Nome;
+
+    function mensagem() {
+        Nome = document.Formulario.NomeC.value;
+        window.alert('Olá ' + Nome + ', processo realizado com sucesso. Seja bem vindo(a)!');
+    }
+</script>
+
+
+</body>
+</html>);
+
